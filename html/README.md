@@ -37,3 +37,18 @@
 	<figcaption>이미지에 대한 캡션을 연결 할 수 있다.(html5 spec)</figcaption>
 </figure>
 `
+
+## 비디오, 오디오 
+
+- 포맷 
+	- HTML5 <video></video>
+	- H264 : IE, safari 
+	- WebM : Android, chrome, firefox, opera 
+- video 속성
+	- preload: 페이지 로드 시 수행할 작업 none|auto|metadata 
+	- src
+	- poster: 비디오를 내려받는 동안 표시할 이미지
+	- width, height 
+	- controls: 브라우저 재생을 위해 자체 컨트롤러 제공해야 함
+	- autoplay 
+	- loop

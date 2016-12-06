@@ -3,9 +3,9 @@
 - 1997 HTML4
 - 2000 XHTML 1.0 
 	- XHTML 1.0 종류
-			- 엄격한<sup>strict</sup>
-			- 과도기적<sup>Transitional</sup> 
-			- 프레임셋<sup>Frameset</sup> 
+		- 엄격한<sup>strict</sup>
+		- 과도기적<sup>Transitional</sup> 
+		- 프레임셋<sup>Frameset</sup> 
 - 2014 HTML5
 
 - doctype 
@@ -31,8 +31,9 @@
 
 - HTML5 이미지 태그 
 
+`
 <figure>
 	<img src="" alt="이미지" />
 	<figcaption>이미지에 대한 캡션을 연결 할 수 있다.(html5 spec)</figcaption>
 </figure>
-
+`

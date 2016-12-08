@@ -40,6 +40,7 @@
 
 ## 비디오, 오디오 
 
+
 - 포맷 
 	- HTML5 <video></video>
 	- H264 : IE, safari 

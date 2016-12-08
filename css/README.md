@@ -20,7 +20,7 @@
 | 인접 선택자 | 바로 옆 요소 | h1 + p {}  |
 | 일반 형제 선택자 | 형제 관계 요소 | h1 ~ p {} | 
 
-* 아래 두 선택자는 IE7 이상 지원
+※ 아래 두 선택자는 IE7 이상 지원
 
 - 단계적 적용 방식
 	- 후자 우선 원칙
@@ -38,7 +38,55 @@
 		- 온라인 사이트 
 			- http://quirksmode.org/css/selectors/
 			- http://www.positioniseverything.net/
-			
+	
+## color
+
+- rgb: rgb(00, 100, 90)
+- hex code: #ee3e80
+- color name: DarkCyan
+- CSS3 hsla: hsla(0, 0%, 78%, .5);
+
+- 용어
+	- 색조<sup>hue</sup> 
+	- 채도<sup>saturation</sup>: 회색의 비율.즉, <b>색의 선명함</b> 채도가 높으면 색상이 선명, 채도가 낮으면 색상이 탁함
+	- 명도<sup>brightness</sup>: 검은색의 비율. 즉, <b>색의 밝기</b> 명도가 높으면 색상이 밝음, 명도가 낮으면 색상이 어두움
+	- 대비<sup>contrast</sup>: 전경색과 배경색의 대비를 통해 텍스트의 가독성을 높혀야 함. 짙은 배경에 밝은 색상의 텍스트를 사용할 경우 행간을 늘려 가독성을 높힘.
+	- 투명도<sup>alpha</sup>: CSS3 속성, 투명도 
+	
+## text
+
+- 서체
+	- serif: 가는 장식선, 명조체, 가독성 높음
+	- sans-serif: 장식이 없음, 고딕체, 작은 텍스트에 가독성이 높음 
+	- monospace: 고정폭 폰트 동일한 너비 유지
+	- non-monospace: monospace 반대용어 가변적 너비 
+- 글자
+	- baseline: 기준선
+	- desender: 기준선 아래
+	- ascender: cap height 위
+	- cap height: 대문자의 윗부분까지 높이
+	- x-height: 소문자 x의 높이
+- 두께 
+	- light
+	- medium 
+	- bold
+	- bolder
+- 스타일
+	- normal
+	- italic
+	- oblique: 일반 폰트에서 기울임 (오블릭)
+- 장평
+	- condensed:narrow 
+	- regular 
+	- extended 
+- 서체 우선 순위 지정<sup>font stack</sup>
+- 브라우저 기본 글자 16px 
+- 폰트 포맷 작성 순서 
+	- eot
+	- woff
+	- ttf/otf
+	- svg
+- 
 			
 ## 참고 
 

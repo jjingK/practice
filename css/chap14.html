@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tables, Lists &amp; Forms</title>
+  <style>
+  ul {
+    list-style-type: square;
+  }
+  ol {
+    list-style-type: decimal-leading-zero;
+  }
+  .inside {
+    width: 350px;
+    list-style-position: inside;
+  }
+  table {
+    empty-cells: hide;
+    /*
+    border-spacing: 30px;
+    border-collapse: collapse;
+    */
+  }
+  table.show {
+    empty-cells: show;
+  }
+  td {
+    border: 1px solid #0088dd;
+    padding: 15px;
+  }
+  .form div {
+    border-bottom: 1px solid #efefef;
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 260px;
+  }
+  .title {
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+  }
+  .radio-buttons label {
+    float: none;
+  }
+  .submit {
+    text-align: right;
+  }
+  </style>
+</head>
+<body>
+  <p>참고 <a href="http://htmlandcssbook.com/code-samples/chapter-14/">http://htmlandcssbook.com/code-samples/chapter-14/</a></p>
+  <p>글머리 기호</p>
+  <ol>
+    <li>decimal</li>
+    <li>decimal-leading-zero</li>
+    <li>lower-alpha</li>
+    <li>upper-alpha</li>
+    <li>lower-roman</li>
+    <li>upper-roman</li>
+  </ol>
+  <ul>
+    <li>none</li>
+    <li>disc</li>
+    <li>circle</li>
+    <li>square</li>
+  </ul>
+  <p>글머리 기호 위치<p>
+  <ul class="inside">
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+  </ul>
+
+  <div>
+    <p>테이블</p>
+    <table class="show">
+      <tr>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td></td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="form">
+    <p>폼</p>
+    <form action="">
+      <div>
+        <label for="" class="title">이름:</label>
+        <input type="text">
+      </div>
+      <div>
+        <label for="" class="title">이메일:</label>
+        <input type="text">
+      </div>
+      <div class="radio-buttons">
+        <span class="title">성별:</span>
+        <input type="radio" name="gender">
+        <label for="" class="title"> 남</label>
+        <input type="radio" name="gender">
+        <label for="" class="title"> 여</label>
+      </div>
+      <div class="submit">
+        <input type="submit" value="등록">
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>

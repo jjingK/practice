@@ -89,6 +89,47 @@
 
 ## Tables, Lists & Forms
 
+<p>글머리 기호</p>
+
+- list-style-type
+	- none|disc(채워진동그라미)|circle|square
+	- decimal|decimal-leading-zero|lower-alpha|upper-alpha|lower-roman|upper-roman
+- list-style-image
+- list-style-position
+- list-style: 단축형
+
+<p>테이블 속성</p>
+
+- empty-cells: show|hide|inherit
+- border-spacing: 셀 사이의 간격
+- border-collapse: collapse|sperate
+	- collapse: 테두리를 하나의 테두리로 합침 border-spacing, empty-cells 속성은 무시됨
+- cursor: move|auto|crosshair|pointer|text|wait|help|url()
+
+## Layout
+
+- 고정 너비 레이아웃 fixed width layout
+- 유동 레이아웃 liquid layout
+min,max- width IE 7 이상
+
+
+## 페이지 크기
+
+<div>
+스크롤 없이 사용자가 볼수 있는 페이지 영역 'above the fold'<br>
+상단 <b>570~600 픽셀</b> 사이에 중요한 정보를 담고 아래 더 많은 콘텐츠가 있다는 암시를 제공해야함<br>
+화면에 따라 변경되는 적응형<sup>adaptive</sup>, 반응형<sup>responsive<sup>
+</div>
+<br>
+
+- 기본 페이지 사이즈 1000px * 570px
+- 그리드 기반 css framework
+	- http://blueprintcss.org/
+	- https://jonikorpi.com/less-framework/
+	- http://960.gs/
+	- https://developer.yahoo.com/yui/grids/
+
 ## 참고
 
 - [http://htmlandcssbook.com/code-samples/](http://htmlandcssbook.com/code-samples/)
+- [https://github.com/nathansmith?tab=repositories](https://github.com/nathansmith?tab=repositories)

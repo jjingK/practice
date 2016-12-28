@@ -1,0 +1,3 @@
+[submodule "depth/fetch"]
+	path = depth/fetch
+	url = https://github.com/jjingK/practice-fetch.git
